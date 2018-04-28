@@ -1,0 +1,338 @@
+[ 2018-04-16T17:31:20+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003241s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000267s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.014648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+
+[ 2018-04-16T17:31:22+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.002956s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000208s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.013406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013603s ]
+
+[ 2018-04-16T17:31:22+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=code&code_len=4&font_size=14&width=100&height=28&code=1523871082
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.002871s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000217s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.011878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-04-16T17:31:40+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=login&dosubmit=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003545s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000250s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.022337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023779s ]
+SQL: SHOW COLUMNS FROM `app2_admin` [ RunTime:0.017429s ]
+SQL: SHOW COLUMNS FROM `app2_times` [ RunTime:0.133523s ]
+SQL: SELECT * FROM `app2_admin` WHERE ( `username` = 'twp584' ) LIMIT 1   [ RunTime:0.027276s ]
+SQL: SELECT * FROM `app2_times` WHERE ( `username` = 'twp584' ) AND ( `isadmin` = 1 ) LIMIT 1   [ RunTime:0.008212s ]
+SQL: DELETE FROM `app2_times` WHERE ( `username` = 'twp584' ) [ RunTime:0.009605s ]
+SQL: UPDATE `app2_admin` SET `lastloginip`='127.0.0.1',`lastlogintime`=1523871100 WHERE ( `userid` = 1 ) [ RunTime:0.000415s ]
+
+[ 2018-04-16T17:31:40+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003276s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000229s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.016541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017629s ]
+SQL: SHOW COLUMNS FROM `app2_admin` [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.029360s ]
+SQL: SHOW COLUMNS FROM `app2_admin_role` [ RunTime:0.016443s ]
+SQL: SELECT `userid`,`username`,`roleid`,`encrypt`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `app2_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT `rolename` FROM `app2_admin_role` WHERE ( `roleid` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 0 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.031824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2018-04-16T17:31:41+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_main&_=1523871100976
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003619s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000276s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.015825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017258s ]
+SQL: SHOW COLUMNS FROM `app2_admin` [ RunTime:0.005026s ]
+SQL: SHOW COLUMNS FROM `app2_admin_role` [ RunTime:0.003348s ]
+SQL: SELECT `userid`,`username`,`roleid`,`encrypt`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `app2_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000540s ]
+SQL: SELECT `rolename` FROM `app2_admin_role` WHERE ( `roleid` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [8192] Non-static method Admin\Common\Sysinfo::getinfo() should not be called statically, assuming $this from incompatible context E:\web\chao\project7\app20140315\App\Admin\Controller\IndexController.class.php 第 111 行.
+NOTIC: [8192] Non-static method Admin\Common\Sysinfo::sys_windows() should not be called statically, assuming $this from incompatible context E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 19 行.
+NOTIC: [8] Undefined index: memUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memCached E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memRealPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memCachedPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapTotal E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [2] file(/proc/net/dev): failed to open stream: No such file or directory E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 33 行.
+NOTIC: [8] Undefined index: memBuffers E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 53 行.
+NOTIC: [8] Undefined index: memRealUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 58 行.
+NOTIC: [8] Undefined index: memRealFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 59 行.
+NOTIC: [8] Undefined offset: 2 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 3 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 5 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 6 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 87 行.
+NOTIC: [8] Undefined offset: 8 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 88 行.
+NOTIC: [8] Undefined offset: 9 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 89 行.
+NOTIC: [8] Undefined offset: 10 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 90 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 91 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 92 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 93 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 94 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 95 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 96 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 97 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 98 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: win_n E:\web\chao\project7\app20140315\Public\Runtime\Cache\Admin\4be466b41029e9dcf16a54f1646a67f4.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2018-04-16T17:31:41+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.008036s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000332s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.021682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023574s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.008988s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 1 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000433s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 6 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000392s ]
+
+[ 2018-04-16T17:31:42+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=admin&a=public_editinfo&menuid=8&_=1523871102610
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003196s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000234s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.013719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014747s ]
+SQL: SHOW COLUMNS FROM `app2_admin` [ RunTime:0.003363s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.002855s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `app2_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000272s ]
+NOTIC: [8] Use of undefined constant currentpos - assumed 'currentpos' E:\web\chao\project7\app20140315\App\Admin\Controller\AdminController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2018-04-16T17:31:43+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003060s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000250s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.012200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013504s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.003287s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 2 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 9 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 11 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000299s ]
+
+[ 2018-04-16T17:31:43+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003940s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000228s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.023007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024080s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.002943s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 3 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000418s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 34 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000358s ]
+
+[ 2018-04-16T17:31:44+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003747s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000270s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.012738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013825s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.003306s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 4 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000376s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 42 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000325s ]
+
+[ 2018-04-16T17:31:44+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.004473s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000296s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.023830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024884s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.003530s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 5 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 14 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000364s ]
+
+[ 2018-04-16T17:31:48+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.003434s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000280s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.013596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014804s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.002969s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 4 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000358s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 42 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000300s ]
+
+[ 2018-04-16T17:31:50+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=code&code_len=4&font_size=14&width=100&height=28&code=1523871082
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.004109s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000321s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.015896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2018-04-16T17:31:51+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_main&_=1523871111350
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.005003s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000382s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.017154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018402s ]
+SQL: SHOW COLUMNS FROM `app2_admin` [ RunTime:0.004750s ]
+SQL: SHOW COLUMNS FROM `app2_admin_role` [ RunTime:0.004381s ]
+SQL: SELECT `userid`,`username`,`roleid`,`encrypt`,`lastloginip`,`lastlogintime`,`email`,`realname` FROM `app2_admin` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000746s ]
+SQL: SELECT `rolename` FROM `app2_admin_role` WHERE ( `roleid` = 1 ) LIMIT 1   [ RunTime:0.000438s ]
+NOTIC: [8192] Non-static method Admin\Common\Sysinfo::getinfo() should not be called statically, assuming $this from incompatible context E:\web\chao\project7\app20140315\App\Admin\Controller\IndexController.class.php 第 111 行.
+NOTIC: [8192] Non-static method Admin\Common\Sysinfo::sys_windows() should not be called statically, assuming $this from incompatible context E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 19 行.
+NOTIC: [8] Undefined index: memUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memCached E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memRealPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: memCachedPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapTotal E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [8] Undefined index: swapPercent E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 25 行.
+NOTIC: [2] file(/proc/net/dev): failed to open stream: No such file or directory E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 33 行.
+NOTIC: [8] Undefined index: memBuffers E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 53 行.
+NOTIC: [8] Undefined index: memRealUsed E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 58 行.
+NOTIC: [8] Undefined index: memRealFree E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 59 行.
+NOTIC: [8] Undefined offset: 2 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 3 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 5 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 6 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 7 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 87 行.
+NOTIC: [8] Undefined offset: 8 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 88 行.
+NOTIC: [8] Undefined offset: 9 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 89 行.
+NOTIC: [8] Undefined offset: 10 E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 90 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 91 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 92 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 93 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 94 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 95 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 96 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 97 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 98 行.
+NOTIC: [8] Undefined variable: NetInput E:\web\chao\project7\app20140315\App\Admin\Common\Sysinfo.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Undefined index: win_n E:\web\chao\project7\app20140315\Public\Runtime\Cache\Admin\4be466b41029e9dcf16a54f1646a67f4.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007753s ]
+
+[ 2018-04-16T17:31:51+08:00 ] 127.0.0.1 /project7/app20140315/index.php?m=admin&c=index&a=public_menuleft
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `app2_setting` [ RunTime:0.005374s ]
+SQL: SELECT `key`,`value` FROM `app2_setting`  [ RunTime:0.000437s ]
+NOTIC: [2] unlink(E:\web\chao\project7\app20140315\Public\Runtime\Temp/71df8fced343b2a8ba67c00a47a67b50.php): No such file or directory E:\web\chao\project7\app20140315\Libs\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: Run \Common\Behavior\SettingBehavior [ RunTime:0.034736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038659s ]
+SQL: SHOW COLUMNS FROM `app2_menu` [ RunTime:0.003221s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 1 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000580s ]
+SQL: SELECT * FROM `app2_menu` WHERE ( `parentid` = 6 ) AND ( `display` = 1 ) ORDER BY listorder ASC LIMIT 1000   [ RunTime:0.000442s ]
+
